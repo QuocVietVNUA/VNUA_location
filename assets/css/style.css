@@ -236,6 +236,9 @@ nav .navbar .links li:hover .location-sub-menu {
 }
 
 /* END: HEADER - NAVBAR ===========*/
+
+
+/* BEGIN: SLIDER ===========*/
   
 #slider {
     margin-top: 70px;
@@ -317,6 +320,8 @@ figure {
     }
 
 }
+/* END: SLIDER ===========*/
+
 
 #content {
 
