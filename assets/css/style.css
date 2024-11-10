@@ -7,6 +7,57 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* common class */
+
+.clear {
+    clear: both;
+}
+
+.margin-right {
+    margin-right: 16px !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-third {
+    width: 33.33333%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
 body {
     min-height: 100vh;
 }
@@ -246,33 +297,21 @@ nav .navbar .links li:hover .location-sub-menu {
     overflow: hidden;
 }
 
-figure {
+#slider figure {
     position: relative;
     left: 0;
     width: 400%;
     animation: 10s slide infinite;
 }
 
-.slide {
-    position: relative;
+#slider .slide {
     width: calc(100%/4);
     float: left;
 }
 
-.slide h1 {
-    text-align: center;
-    position: absolute;
-    font-size: 3em;
+#slider .slide img {
     width: 100%;
-    color: #fff;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-
-}
-
-.slide img {
-    width: 100%;
-    height: 500px;
-
+    height: 600px;
 }
 
 @keyframes slide {

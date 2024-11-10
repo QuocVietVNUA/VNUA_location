@@ -1,4 +1,4 @@
-// search-box open close js code
+// open close serch
 let navbar = document.querySelector(".navbar");
 let searchBox = document.querySelector(".search-box .bx-search");
 // let searchBoxCancel = document.querySelector(".search-box .bx-x");
@@ -12,7 +12,7 @@ searchBox.addEventListener("click", () => {
     }
 });
 
-// sidebar open close js code
+// open close slibar
 let navLinks = document.querySelector(".nav-links");
 let menuOpenBtn = document.querySelector(".navbar .bx-menu");
 let menuCloseBtn = document.querySelector(".nav-links .bx-x");
@@ -24,7 +24,7 @@ menuCloseBtn.onclick = function () {
 }
 
 
-// sidebar submenu open close js code
+// sidebar submenu open close
 let serviceArrow = document.querySelector(".service-arrow");
 serviceArrow.onclick = function () {
     navLinks.classList.toggle("show1");
