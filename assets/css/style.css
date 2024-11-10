@@ -8,6 +8,9 @@
 }
 
 /* common class */
+.backgroud--ccc {
+    background-color: #ccc !important;
+}
 
 .clear {
     clear: both;
@@ -39,7 +42,11 @@
 }
 
 .col-third {
-    width: 33.33333%;
+    width: calc(100%/3);
+}
+
+.col-four {
+    width: calc(100%/4);
 }
 
 .col-half {
@@ -56,6 +63,10 @@
 
 .mt-16 {
     margin-top: 16px !important;
+}
+
+.mt-40 {
+    margin-top: 40px;
 }
 
 body {
@@ -96,16 +107,13 @@ nav .navbar {
 
 .navbar .logo a {
     font-size: 30px;
-    color: #fff;
+    color: #FEA116;
     text-decoration: none;
     font-weight: 700;
 }
 
 .navbar .logo a:hover {
-    background-color: #d1e597;
-    color: #333;
-    border-radius: 4px;
-    cursor: pointer;
+    color: red;
 }
 
 .navbar .search-box i:hover {
@@ -365,6 +373,60 @@ nav .navbar .links li:hover .location-sub-menu {
 #content {
 
 }
+
+#content .content-section {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+}
+
+#content .section-intro {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#content .section-sub-intro {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+#content .intro-description {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* SERVICE */
+#content .service-container {
+    background-color: #ccc
+    
+}
+
+#content .service-items {
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    padding: 16px;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+#content .service-logo {
+    font-size: 20px;
+}
+
+#content .service-name {
+    
+}
+
+#content .service-desc {
+    
+}
+
+
+
 
 #footer {
 
